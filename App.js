@@ -1,15 +1,14 @@
 //import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import  Welcome  from './src/components/Welcome.js';
+import { StyleSheet, View } from 'react-native';
+import  ContentView  from './src/components/ContentView.js';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.heading}>TODO LIST</Text>
+      <ContentView />
       
       {/*
       <Welcome message="odo" />
-      <Text>hello world</Text>
       <StatusBar style="auto" /> 
       */}
       
@@ -17,28 +16,16 @@ export default function App() {
   );
 }
 
-/*
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
-*/
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#1E1A3C',
-  },
-  heading: {
-    color: '#fff',
-    fontSize: 20,
-    fontWeight: '600',
-    marginTop: 30,
-    marginBottom: 10,
-    marginLeft: 20,
+    //flex: 1,
+    backgroundColor: '#fff',
+    width: '100%',
+    height: '100%',
+    //alignItems: 'center',
+    //justifyContent: 'center',
   },
 });
+
+
