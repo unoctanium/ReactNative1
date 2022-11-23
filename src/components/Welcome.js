@@ -1,4 +1,7 @@
+import React from 'react';
+import { Text } from 'react-native';
+
 function Welcome(props) {
-    return <h1>Hello, {props.message}</h1>;
+    return <Text>Hello, {props.message}</Text>;
 }
 export default Welcome;
